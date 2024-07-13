@@ -1,0 +1,1 @@
+// context switching due to synchronous system calls is managed by the runtime's scheduler, which ensures that goroutines can continue to run efficiently even when some of them are blocked by system calls. This is an important aspect of Go's concurrency model, enabling it to handle many lightweight tasks (goroutines) without being bottlenecked by synchronous operations.
